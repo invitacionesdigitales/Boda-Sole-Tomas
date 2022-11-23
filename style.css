@@ -1,0 +1,378 @@
+* body {
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./imagenes/efecto-polvo-1.png);
+}
+
+/*PORTADA*/
+
+.carouselslide {
+    width: 100%;
+}
+
+.titulo_primero {
+    text-align: center;
+    position: relative;
+    margin: 50px 0px;
+
+    color: rgb(131, 130, 130);
+    font-size: 22px;
+    border-radius: 1px;
+    font-family: 'Rochester', cursive;
+}
+
+.pareja {
+    width: 20%;
+    margin-top: -22%;
+    margin-left: 10%;
+}
+
+.hoja2 {
+
+    height: 10%;
+    margin-top: -40%;
+}
+
+.hoja3 {
+    width: 7%;
+    margin-left: 20%;
+    rotate: 70deg;
+    margin-top: -20px;
+}
+
+.primer_span {
+    color: #f2b9f0;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+
+}
+
+img {
+    width: 100%;
+    margin-right: 50px;
+    box-shadow: 0px 3px 5px rgba(rgb(218, 208, 208), rgb(38, 39, 38), brgb(65, 65, 66) alpha);
+}
+
+/*CUENTA REGRESIVA*/
+
+.container {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.countdown span {
+    color: #6b947f;
+}
+
+.countdown div {
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+.reloj {
+    display: grid;
+    place-items: center;
+    border: solid 1px rgb(241, 241, 241);
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+    color: rgb(114, 114, 114);
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #effcc6;
+}
+
+.final-sms {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(-100%);
+    transition: ease-in-out 0.5s;
+    background-color: rgb(112, 111, 111);
+}
+
+.final-sms h2 {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(251, 238, 171);
+}
+
+@media (max-width: 730px) {
+    .reloj {
+        float: left;
+        height: 40px;
+        width: 40px;
+        border-radius: 5%;
+        color: rgb(114, 114, 114);
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #f8d4bb;
+    }
+
+    .countdown {
+        margin-top: -25%;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .card .card-header {
+        background-color: rgb(255, 235, 250);
+        margin-top: -50%;
+    }
+
+    .card-body {
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        margin-top: -20%;
+
+    }
+
+    .boton_1 {
+        background-color: #fcf7e7;
+        border: none;
+        
+        color: #5e5c5c;
+    }
+    .card-title{
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+    }
+    .accordion-butto {
+        font-family: 'Amatic SC', cursive;
+        font-size: 28px;
+    }
+
+    .accordion{
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+    }
+    .accordion-header .accordion-button{
+        font-family: 'Amatic SC', cursive;
+        text-align: center;
+        font-size: 25px;
+        background-color: #fffce0;
+    }
+    .accordion-body h1{
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        color: #605e60;
+        font-size: 15px;
+    }
+
+    .pareja{
+        width: 20%;
+        margin-top: -22%;
+        margin-left: 10%;
+      }
+      card-body2{
+        margin-top: 80px;
+      }
+   
+
+.container-boton img{
+    width: 50px;
+   right: 50%;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+
+.box__footer{
+    display: flex;
+   
+    padding: 30px;
+}
+
+.box__footer .logo img{
+   width: 50%;
+   margin-right: 10%;
+   margin-top: 20%;
+}
+.footer{
+width: 40%;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
+.box__copyright {
+    max-width: 1200px;
+    padding: 0px 40px;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+    font-size: 14px;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #e63d3d;
+}
+.box__copyright img{
+  width: 30%;
+}
+.flores img{
+    width: 300%;
+    margin-top: -40%;
+}
+.espero{
+    font-size: 22px;
+    text-align: center;
+    color: #787676;
+    margin: 10%;
+    font-family: 'Rochester', cursive;
+}
+
+ }
+ 
+
+
+
+
+
+
+/*SECCION*/
+
+
+.info h4 {
+    text-align: center;
+    color: #484848;
+    font-size: 28px;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.info p {
+    text-align: center;
+    color: #686868;
+    font-size: 16px;
+    padding: 15%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #faf2ec;
+    background-image: url(./imagenes/efecto-polvo-1.png);
+}
+
+.info img {
+    width: 18%;
+    margin-left: 40%;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 730px) {
+
+    .container-footer {
+        margin-top: 100px;
+    }
+
+
+
+    .titulo_footer {
+        color: #787676;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Rochester', cursive;
+    }
+
+    .flores {
+        width: 120px;
+    }
+
+    .sitio {
+        text-decoration: none;
+        color: #787676;
+    }
+
+    .span_2 {
+        text-decoration: none;
+        color: #a2e0fa;
+    }
+}
+
+@media (min-width: 1024px) {
+    footer .information {
+        margin-top: 450px;
+
+        font-size: 14px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .sitio {
+        text-decoration: none;
+        color: #787676;
+    }
+
+    .span_2 {
+        text-decoration: none;
+        color: #a2e0fa;
+    }
+
+    .titulo_footer {
+        color: #787676;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Sacramento', cursive;
+    }
+
+}
+
+.hoja_5 {
+    width: 9%;
+    margin-right: 70%;
+    rotate: 45deg;
+}
+
+.hoja6 {
+    width: 9%;
+    margin-right: 40%;
+    rotate: 20deg;
+    margin-left: 75%;
+}
